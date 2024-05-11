@@ -1,0 +1,23 @@
+.my-custom-h1 {
+  font-family: 'Titan One', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*font responsivo*/
+@media (max-width: 768px) {  /* Targets screens smaller than 768px (tablets) */
+  .my-custom-h1 {
+    font-size: 2.5rem;  /* Reduce font size for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {  /* Targets screens smaller than 576px (phones) */
+  .my-custom-h1 {
+    font-size: 2rem;  /* Reduce font size further for very small screens */
+  }
+}
