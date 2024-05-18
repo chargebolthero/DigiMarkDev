@@ -25,3 +25,17 @@ clienteLinks.forEach(function(link) {
         xhr.send();
     });
 });
+
+// funciones botones 
+document.addEventListener("DOMContentLoaded", function() {
+    var button = document.getElementById("myButton");
+
+    // Set the URL to redirect to
+    var url = "index.html";
+
+    // Add click event to the button
+    button.addEventListener("click", function() {
+        window.location.href = url;
+    });
+});
+
