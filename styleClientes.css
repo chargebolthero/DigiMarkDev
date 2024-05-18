@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+#encabezado {
+    background-color: #4254bd;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para la sección principal */
+#InfoCl {
+    max-width: 500px;
+    margin: 20px 20px 20px 20px; /* Margen superior, derecho, inferior e izquierdo */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    float: left; /* Alinear a la derecha */
+}
+
+/* Estilos para el aside (barra lateral) */
+#barraLateral {
+    max-width: 500px;
+    margin: 20px 20px 20px 20px; /* Margen superior, derecho, inferior e izquierdo */
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    float: left; /* Alinear a la izquierda */
+    width: 20%; /* Ancho de la barra lateral */
+    margin-right: 10px; /* Margen derecho */
+    height: auto;
+    max-height: 1750px; /* Altura máxima */
+}
+
+
+
+#barraLateral ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#barraLateral ul li {
+    margin-bottom: 5px;
+}
+
+#barraLateral a {
+    color: #4254bd;
+    text-decoration: none;
+}
+
+#barraLateral a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #4254bd;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

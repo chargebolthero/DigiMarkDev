@@ -1,0 +1,128 @@
+/* Navigation styles */
+nav {
+    background-color: #4254bd; /* Color1 */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav h1#Titutlo {
+    color: #fff; /* Texto en color blanco */
+    font-size: 32px; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Espacio entre elementos */
+}
+
+nav h2#subTitulo {
+    color: #fff; /* Texto en color blanco */
+    font-size: 24px; /* Tamaño de fuente */
+    margin-top: 0; /* Eliminar el margen superior */
+}
+/*Barra lateral */
+
+#barraLateral {
+    background-color: #fff; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    float: left; /* Alinear a la izquierda */
+    width: 20%; /* Ancho de la barra lateral */
+    margin-right: 20px; /* Margen derecho */
+    height: auto;
+    max-height: 1750px; /* Altura máxima */
+}
+
+
+#barraLateral h2 {
+    color: #333; /* Color del título */
+    font-size: 24px; /* Tamaño de fuente */
+    margin-top: 0; /* Eliminar margen superior */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+#barraLateral p {
+    color: #333; /* Color del texto */
+    font-size: 16px; /* Tamaño de fuente */
+    line-height: 1.6; /* Altura de línea */
+    margin-bottom: 15px; /* Margen inferior */
+}
+
+#barraLateral blockquote {
+    color: #fff; /* Color del texto */
+    font-size: 16px; /* Tamaño de fuente */
+    line-height: 1.6; /* Altura de línea */
+    margin-bottom: 15px; /* Margen inferior */
+}
+
+
+/* Estilos para la sección */
+section {
+    max-width: 800px; /* Ancho máximo */
+    margin: 20px auto; /* Margen exterior */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    height: auto;
+    max-height: 1750px; /* Altura máxima */
+}
+
+/* Estilos para los artículos */
+article {
+    margin-bottom: 20px; /* Margen inferior */
+    padding: 20px; /* Espaciado interno */
+    background-color: #fff; /* Color de fondo */
+    border-radius: 8px; /* Borde redondeado */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+article:last-child {
+    margin-bottom: 0; /* Eliminar margen inferior del último artículo */
+}
+
+/* Estilos para los títulos */
+article h2,
+article h3 {
+    color: #4254bd; /* Color del título */
+    font-size: 24px; /* Tamaño de fuente */
+    margin-top: 0; /* Eliminar margen superior */
+}
+
+article h3 {
+    font-size: 20px; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+/* Estilos para los párrafos */
+article p {
+    color: #333; /* Color del texto */
+    font-size: 16px; /* Tamaño de fuente */
+    line-height: 1.6; /* Altura de línea */
+    margin-bottom: 15px; /* Margen inferior */
+}
+
+/* Estilos para las citas */
+article p span {
+    font-style: italic; /* Texto en cursiva */
+    color: #777; /* Color del texto */
+}
+
+/*El Pie de página*/
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #4254bd; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+footer div {
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilo para el texto del copyright */
+footer div::after {
+    content: "\00a9"; /* Código de derechos de autor */
+    margin-left: 5px; /* Margen izquierdo */
+}
