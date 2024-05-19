@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var button = document.getElementById("myButton");
 
     // Set the URL to redirect to
-    var url = "index.html";
+    var url = "customers.html";
 
     // Add click event to the button
     button.addEventListener("click", function() {
