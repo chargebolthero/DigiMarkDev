@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
     <html lang="en" data-bs-theme="dark"></html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>customers</title>
+    <script src="js/scriptClientes.js"></script>
 </head>
 
 <div class="container-fluid container-dark">
@@ -43,42 +44,53 @@
       </div>
     </header>
     <!--NavBar-->
-    <h1>Nuestros Clientes</h1>
+    <nav>
+      <h1 id="Titutlo">Nuestros Clientes</h1>
+      <h2 id="subTitulo">Nuestros Clientes Satisfechos</h2>
+    </nav>
+    <!-- Un nuevo elemento para que lo usuarios vean la informacion de los clientes-->
+    <aside id="barraLateral"> 
+        <p> Ver información de nuestros clientes</p>
+        <blockquote><a href="cliente1.html" class="cliente-link" data-cliente="cliente1.html">David Alfredo</a></blockquote>
+        <blockquote><a href="cliente2.html" class="cliente-link" data-cliente="cliente2.html">David Alfredo 2</a></blockquote>
+        <blockquote><a href="cliente3.html" class="cliente-link" data-cliente="cliente3.html">David Alfredo 3</a></blockquote>
+    </aside>
 
-    <h2>Nuestros Clientes Satisfechos</h2>
+   <!--Seccion de la inforamcion corta -->  
+   <section>
+    <article id="info1">
+        <p>En Digital Marketing Experts, nos enorgullecemos de trabajar con una amplia gama de clientes de diversas industrias, desde pequeñas empresas emergentes hasta grandes corporaciones multinacionales. Cada uno de nuestros clientes tiene objetivos únicos y desafíos específicos, y nuestro equipo de expertos se dedica a comprender sus necesidades y desarrollar estrategias personalizadas que les ayuden a alcanzar el éxito.</p>
+    </article>
 
-    <p>En Digital Marketing Experts, nos enorgullecemos de trabajar con una amplia gama de 
-        clientes de diversas industrias, desde pequeñas empresas emergentes hasta grandes 
-        corporaciones multinacionales. Cada uno de nuestros clientes tiene objetivos únicos y 
-        desafíos específicos, y nuestro equipo de expertos se dedica a comprender sus 
-        necesidades y desarrollar estrategias personalizadas que les ayuden a alcanzar el éxito.</p>
+    <article id="infClientes">
+        <h3>David Alfredo </h3>
+        <p>Breve descripción de la empresa y los resultados obtenidos trabajando con Digital Marketing Experts.</p>
+    </article>
 
-    <h3>**[Nombre de Cliente 1]**</h3>
-    <p>[Breve descripción de la empresa y los resultados obtenidos trabajando con Digital 
-        Marketing Experts].</p>
+    <article id="infClientes">
+        <h3>David Alfredo 2</h3>
+        <p>Breve descripción de la empresa y los resultados obtenidos trabajando con Digital Marketing Experts.</p>
+    </article>
 
-    <h3>**[Nombre de Cliente 2]**</h3>
-    <p>[Breve descripción de la empresa y los resultados obtenidos trabajando con 
-        Digital Marketing Experts].</p>
+    <article id="infClientes">
+        <h3>David Alfredo 3</h3>
+        <p>Breve descripción de la empresa y los resultados obtenidos trabajando con Digital Marketing Experts.</p>
+    </article>
 
-    <h3>**[Nombre de Cliente 3]**</h3>
-    <p>[Breve descripción de la empresa y los resultados obtenidos trabajando con 
-        Digital Marketing Experts].</p>
-
-    <h2>Lo que nuestros clientes dicen sobre nosotros</h2>
-
-    <p>"[Cita del cliente 1]". - [Nombre del cliente 1], [Cargo en la empresa]</p>
-
-    <p>"[Cita del cliente 2]". - [Nombre del cliente 2], [Cargo en la empresa]</p>
-
-    <p>"[Cita del cliente 3]". - [Nombre del cliente 3], [Cargo en la empresa]</p>
-
-    <p>Nos apasiona ayudar a nuestros clientes a alcanzar sus objetivos de marketing 
-        digital y estamos comprometidos a brindarles un servicio excepcional. Si está 
-        buscando una agencia que pueda ayudarlo a llevar su negocio al siguiente nivel, 
-        ¡no dude en contactarnos hoy mismo para una consulta gratuita!
-    </p>
-    
+    <article id="infClientes">
+        <h2>Lo que nuestros clientes dicen sobre nosotros</h2>
+        <p>"Cita del cliente 1". - <span>Nombre del cliente 1, Cargo en la empresa</span></p>
+        <p>"Cita del cliente 2". - <span>Nombre del cliente 2, Cargo en la empresa</span></p>
+        <p>"Cita del cliente 3". - <span>Nombre del cliente 3, Cargo en la empresa</span></p>
+        <p>Nos apasiona ayudar a nuestros clientes a alcanzar sus objetivos de marketing digital y estamos comprometidos a brindarles un servicio excepcional. Si está buscando una agencia que pueda ayudarlo a llevar su negocio al siguiente nivel, ¡no dude en contactarnos hoy mismo para una consulta gratuita!</p>
+    </article>
+</section>
+  <footer>
+    <div>
+      © 2024 Copyright: Desarrollo de Aplicaciones Web
+    </div>
+    <!-- Copyright -->
+</footer>
 </body>
 </div>
 </html>
